@@ -1,0 +1,55 @@
+/* Overall Webpage */
+.App {
+  text-align: center;
+}
+/* Main site banner */
+.Desktop-Banner {
+  background-color: #4C566A;
+  min-height: 1vh;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 6vw 1fr 1fr 2fr 2vw;
+  grid-template-rows: calc(3 * (6px + 1vmin));
+  row-gap: 2vw;
+  font-size: calc(6px + 1vmin);
+  color: #D8DEE9;
+}
+
+.Desktop-Banner-Site-Name {
+  grid-row: 1;
+  grid-column: 2;
+  justify-self: start;
+
+}
+.Desktop-Banner-Pages{
+  grid-row: 1;
+  grid-column: 4;
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  justify-self: end;
+
+}
+
+
+/* Body Text in Webpage */
+.App-body {
+  background-color: #2e3440;
+  min-height: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #eceff4;
+}
+
+body {background-color: #2e3440}
+
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
